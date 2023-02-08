@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: MUTE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: VOL UP
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: VOL DOWN
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 11 00 00 00
